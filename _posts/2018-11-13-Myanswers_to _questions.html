@@ -1,85 +1,163 @@
+---
+layout: post
+title: answers
+---
+
+
 <!DOCTYPE html>
 
 <html>
 <head>
      <meta name="viewport"	content="width=device-width,	initial-scale=1.0">
-     <link rel="stylesheet" href="/_sass/style.css">
-    <title>answers/ Fatma Yahya</title>
+     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css">
+     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">    
+     <title>answers/ Fatma Yahya</title>
      <meta charset="UTF-8">
 </head>
 <body >
-    <div id="wrapper">
-    <header>
-    <h1>Question 1</h1>
-    <h3>What do you think of pre-compiling your CSS?</h3>
-    <ol>
-            <li>Compare to regular CSS</li>
-            <li>Which techniques did you use?</li>
-            <li>Pros and cons?</li>
-            </ol>
-
-        
-    </header>
-
+    <div>     
 <main>
- 
- <h3>Mitt svar är</h3>
- <h2> Rubrik</h2>
- <blockquote> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at porta sem.
- Ut vehicula sollicitudin nisi, ut tincidunt urna fringilla vitae. Mauris dolor ex, metus accumsan a.
- fringilla in erat vestibulum, venenatis interdum ex. Fusce id efficitur magna, Quisque nibh risus.
- eleifend nec fermentum at, lobortis et mauris, Morbi egestas ullamcorper magna, eget pretium. </p></blockquote>
-
- <img src="pics/rwd.png" alt="computer picture" />
-<blockquote><p>
- Mauris euismod nisl vitae lacus consequat facilisis.
- Nulla blandit lorem et nunc aliquam, eu tincidunt justo faucibus.
- Aenean finibus congue leo vitae hendrerit. Phasellus eget semper ante.
- Praesent non faucibus erat. Nulla in ligula non erat condimentum lobortis quis vel ipsum.</p></blockquote>
- <h3> Rubrik</h3>
- <img id="floatImg"	 src="pics/smartphone.png" alt="smartphone picture" />
- <p> Integer et leo a ipsum vehicula consectetur ut nec lacus. Praesent sit amet lobortis risus.
- Cras posuere risus pharetra neque ornare aliquam. Pellentesque leo ipsum, pellentesque tristique tincidunt ac,
- finibus sed nulla. Sed quis nunc sagittis, congue neque sed, faucibus dolor. Vivamus diam elit,
- condimentum sed dapibus sed, lacinia non mi. Mauris non libero a tortor sollicitudin vehicula.
- Maecenas at blandit sem. Curabitur condimentum egestas ultricies. Vestibulum urna tortor,
- porttitor sed leo dignissim, pharetra pretium sapien. Cras gravida maximus nulla, at aliquet mauris scelerisque sed.
- Curabitur viverra sit amet augue eget sagittis. Vestibulum et nisi quam.
-</p>
- <h3> Rubrik</h3>
- <p>Sed ac mattis nisl. Pellentesque ullamcorper sapien in quam dictum dignissim. Nam placerat viverra arcu placerat semper.
- Vivamus suscipit quam a turpis dignissim, ut placerat lectus varius. Pellentesque id viverra nulla.
- Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
- Donec pharetra nisl a ipsum vulputate ultricies. Suspendisse vel justo maximus, egestas urna id,
- auctor tellus. Quisque vulputate in tortor ut pulvinar. Donec sit amet placerat enim.
- Nullam venenatis id magna sed efficitur. Pellentesque tempqqus vestibulum orci auctor efficitur.
- Cras lobortis finibus quam egestas scelerisque. Ut pharetra cursus lobortis. Aenean volutpat,
- purus eu fringilla imperdiet, enim sapien accumsan nisi, eu sagittis metus nunc sed massa.
- Praesent sed dolor ac lacus rutrum consectetur nec et diam.
-</p>
- <h3> Rubrik</h3>
- <p>Mauris in ex at sapien posuere tincidunt. Pellentesque ac ultricies sem, ac porta ex.
- Donec volutpat, risus ac lobortis auctor, mauris nunc tincidunt lectus, non hendrerit libero sem eu mi.
- Praesent bibendum suscipit lectus, nec bibendum leo viverra vitae. Mauris at velit pharetra, vulputate orci sit amet,
- ultricies neque. Sed pulvinar accumsan sem eu ornare. Suspendisse sagittis feugiat velit.
- Maecenas sodales faucibus dolor nec pretium.
- </p>
- <table>
-    <caption>Tabell  ABC</caption>
-    <tr> <th>A</th> <th>b</th> <th>c</th> </tr>
-    <tr><td>aaa</td><td>bbbb</td><td>cccc</td></tr>
-    <tr><td>1111</td><td>2222</td><td>3333</td></tr>
-    <tr><td>aaa</td><td>bbbb</td><td>cccc</td></tr>
-    <tr><td>111</td><td>2222</td><td>3333</td></tr>
+         <h4 class="question">Question 1</h4>
+       <section class="questionListStyle">
+          <h3>What do you think of pre-compiling your CSS?</h3>
+          <ol>
+             <li>Compare to regular CSS</li>
+             <li>Which techniques did you use?</li>
+             <li>Pros and cons?</li>
+           </ol>
 
 
- </table>
+         </section>
+
+
+   <br>
+   
+ <section class="answers_fontfamilj"> <ol>
+    <li>Sass och css nästan  har samma syntaxt &#44; for att sass har inga  Klammerparenteser eller Semikolon utan använda indragning av rader för att ange block.
+       Filer i den indragna syntaxen använder förlängningen .sass och inte .css </li>
+
+    <li> jag har använt sass css preprocessor &#44; jag använt Partials &#38; import &#38; extend teknik </li><br>
+
+    <li><b> Sass pros and cons</b><br>
+      <b>Pros av Sass</b>
+      <br>
+      <ul>
+      <li>mindre code och mindre utveckling tid &#44; Sass har många egenskaper som kan hjälpa för att Undvik att upprepa koden &#40;Do not Repeat Yourself&#41; till exempel  användning av Extend/Inheritance 
+        det är lätt att dela en uppsättning CSS-egenskaper melan olika selktorer.</li> 
+      <li>Det är lätt att använda färdig layouts och framworks &#44; till exempel man kan ladda ner Bootstrap gems och använda framworks 
+      i några steg. <i>konsistens</i> man kan återanvända koden istället av att skriva ny kod varje gång man behöver.</li>
+      <br> <b>Cons of Modular Sass</b>
+     <li>säkerhet
+     <br>Sass behöver en tredjeparts tjänsteleverantör och det kan vara problem för företag som hanterar känsliga data.</li>
+     <li>Utbrott<br> Trots  bestplanerade planer molnleverantörernas kan ske utbrott då och då och det kan påverka arbetet.</li>
+     <li>Överensstämmelse
+        när företagsuppgifter finns i en tjänsteleverantörs datacenter i annt land det kan
+       vara ett problem att säkerställa att du överensstämmer med de relevanta reglerna för dataskydd.</li>
+     <li>Prestanda
+       saas Prestanda kan varira från webbläsare till andra p.g.a  många faktorer till exempel internet fastighet&#44; 
+      det kan vara att det finns 
+       något fel på service provider&#44; i annat ord alla data nås externt och det kan hända att något fel kan förekomma.</li>
+
+
+      <li>Data rörlighet
+
+      I SaaS marknaden finss många tjänsteleverantör en del av leverantörna kan gå under och  på det sätet företaget kan förlåra datan.
+      så man måste vara säkert och  välja leverantör någgrant.</li>
+
+    </ul> 
+      
+   </li>
+ </ol> 
+</section>
+
+ <br>
+ <h4 class="question">Question 2</h4>
+       <section class="questionListStyle">
+          <h3>What do you think of static site generators?</h3>
+          <ol>
+             <li>What type of projects are they suitable for?</li>
+           </ol>
+         </section>
+   <br>
+   
+ <section class="answers_fontfamilj"> 
+    Sass och css nästan  har samma syntaxt &#44; i sass finns inga  Klammerparenteser eller 
+    Semikolon utan indragning av rader för att ange block.
+    <br> sass blir väldigt powerful styling verktyg när många jobbar på en stor project tack varje att 
+      ass har möjlighet att dela upp koden i 
+      många filer utan att påverka prestanda.<br>
+      Sass är super bra för Arkitekturprojekt där många arkitekten kan jobba alla på samma project 
+</section>
+
+
+
+<br>
+ <h4 class="question">Question 3</h4>
+       <section class="questionListStyle">
+          <h4>What is robots.txt and how have you configure it for your site?</h4>
+         </section>
+   <br>
+   
+ <section class="answers_fontfamilj"> 
+    <p>I domän roten finns en text fil som heter robots.txt filen ger instruktioner till sökmotorer hur ska webbplatsen spindla.
+        <br>på domänen man har möjligt att indexera allt innehåll på webbplatsen på alla sökmotorer <br>.
+        jag skapade en txt fil och valde Googlebot som User-agent jag valde att google indexera alla filer 
+        genom att lämna Disallow: tomt.
+   
+  </p>
+    
+
+</section>
+
+
+<br>
+ <h4 class="question">Question 4</h4>
+       <section class="questionListStyle">
+          <h4>What is humans.txt and how have you configure it for your site?</h4>
+         </section>
+   <br>
+   
+ <section class="answers_fontfamilj"> 
+    <p>I domän roten finns en annan text fil som heter humans.txt filen ger information om vem som bygddde och utvecklade siten .
+        <br>samt vilka verktyg eller Ide som användes för att bygga webbplatsen<br>.
+        jag skapade en txt fil och kalade den för humans.txt och skrev lite information i den. </p>
+  
+
+<br>
+ <h4 class="question">Question 5</h4>
+       <section class="questionListStyle">
+          <h4>How did you implements comments to blog posts?</h4>
+         </section>
+   <br>
+   
+   <
+   
+   
+   
+   
+   > 
+
+<br>
+ <h4 class="question">Question 6</h4>
+       <section class="questionListStyle">
+          <h4>What is Open Graph and how do you make use of it?</h4>
+         </section>
+   <br>
+   
+ <section class="answers_fontfamilj"> 
+    Sass och css nästan  har samma syntaxt &#44; i sass finns inga  Klammerparenteser eller 
+    Semikolon utan indragning av rader för att ange block.
+    <br> sass blir väldigt powerful styling verktyg när många jobbar på en stor project tack varje att 
+      ass har möjlighet att dela upp koden i 
+      många filer utan att påverka prestanda.<br>
+      Sass är super bra för Arkitekturprojekt där många arkitekten kan jobba alla på samma project 
+</section>
+
+
 </main>
 
 </div>
 
-<footer>
-   Fatma Alhouthi 2017-10-4
-</footer>
+
 </body>
 </html>

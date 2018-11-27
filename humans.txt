@@ -1,0 +1,18 @@
+/* TEAM */
+	Chef:Juanjo BernabeuFatma Yahya
+	Contact: hello [at] humanstxt.org
+	Twitter: @jfatmayahya
+	From:Stockholm, Sweden
+
+/* THANKS */
+
+	
+
+		
+
+/* SITE */
+	Last update:2018/11/27
+	Language: English / Swedish
+	Doctype:HTML5, md
+	IDE: vscode, atom, git, jekyll. sass
+    Generator: jekyll, sass

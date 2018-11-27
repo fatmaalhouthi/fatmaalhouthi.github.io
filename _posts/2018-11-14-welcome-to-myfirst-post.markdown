@@ -4,22 +4,28 @@ title:  "Welcome to my page!"
 date:   2018-11-13 15:39:09 -0600
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+ 
+  
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+ 
+ Hej och välkommen till min första blog sida Jag som finns bakom denna site heter Fatma jag studerar Webbprogrammerare
+linneuniversitetet. 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Detta är min första blog sida och det har flera inlägg, en av de inlägg jag använde
+för att svara på de frågor jag fick vid första uppgiften,
+bloggen innehåller en kort presentation om mig också. 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Jag har lagt allt jag lärde mig i den  enkla bost logen  och hoppas att kunna utveckla min förmåga att designa en större webbplats med mer detaljer.  
+
+ Hoppas ni finner siten nog intressant så ni vill återkomma! 
+
+ ![alt text](http://www.webdesignhot.com/wp-content/uploads/2012/09/Abstract-Blue-Flower-Background-Vector.jpg)
+
+
+
+
+
+
+

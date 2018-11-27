@@ -13,24 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Fatma Alhouthi first blog
+title: My first blog
 email: fatma1270@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my first blog page and it has  multiple posts  one of those posts i
-   used it to answer the questions i got at the first assignment, 
-  the blog contains a short presentation about me as well.
+  Detta är min första bloggsida och det har flera inlägg, en av de inlägg jag använde
+   för att svara på de frågor jag fick vid första uppgiften,
+   bloggen innehåller en kort presentation om mig också.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fatmaalhouthi
-github_username:  fatmaalhouthi
-
+github_username: fatmaalhouthi
+facebook_username: fatmaalhouthi
+author: Fatma Yahya
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 sass:
-  sass_dir: _sass  
+  sass_dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

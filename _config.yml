@@ -21,9 +21,9 @@ description: >- # this means to ignore newlines until "baseurl:"
    bloggen innehåller en kort presentation om mig också.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: fatmaalhouthi
+twitter_username: fatmayehya
 github_username: fatmaalhouthi
-facebook_username: fatmaalhouthi
+facebook_username: fatmayehya
 author: Fatma Yahya
 # Build settings
 markdown: kramdown
@@ -33,6 +33,8 @@ plugins:
   - jekyll-seo-tag
 sass:
   sass_dir: _sass
+  
+comments: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

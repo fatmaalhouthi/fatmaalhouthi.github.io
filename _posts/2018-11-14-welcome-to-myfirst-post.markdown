@@ -10,14 +10,14 @@ categories: jekyll update
 
 
  
- Hej och välkommen till min första blog sida Jag som finns bakom denna site heter Fatma jag studerar Webbprogrammerare
-linneuniversitetet. 
+ Hej och välkommen till min första blog sida Jag som finns bakom denna site heter Fatma jag studerar Webbprogrammerare i
+ linneuniversitetet. 
 
 Detta är min första blog sida och det har flera inlägg, en av de inlägg jag använde
 för att svara på de frågor jag fick vid första uppgiften,
 bloggen innehåller en kort presentation om mig också. 
 
-Jag har lagt allt jag lärde mig i den  enkla bost logen  och hoppas att kunna utveckla min förmåga att designa en större webbplats med mer detaljer.  
+Jag har lagt allt jag lärde mig i den  enkla post blogen  och hoppas att kunna utveckla min förmåga att designa en större webbplats med mer detaljer.  
 
  Hoppas ni finner siten nog intressant så ni vill återkomma! 
 
